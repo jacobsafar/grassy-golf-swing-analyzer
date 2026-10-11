@@ -14,7 +14,7 @@ AI golf swing analysis for Claude. Upload a swing video and Grassy measures it w
 
 ## What it sends and stores
 
-- **Your swing video:** uploaded by you on a grassy.golf page to Grassy's storage, never through the chat. Grassy analyzes it to produce body-movement measurements.
+- **Your swing video:** uploaded by you in the Grassy panel in the chat (or on a grassy.golf page) straight to Grassy's storage. It is not sent to Claude. Grassy analyzes it to produce body-movement measurements.
 - **Stored under your Grassy account:** the video, the measurements and key frames. You can delete them in Grassy.
 - **Shared with Claude:** the analysis results (measurements, coaching reference text and up to 4 key frames) are returned to Claude in your conversation.
 - **Kept by Grassy for the connection:** hashed sign-in tokens and a usage count. No ads, and no data sold.

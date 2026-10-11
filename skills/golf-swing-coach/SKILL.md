@@ -10,12 +10,12 @@ Golf Swing Analyzer by Grassy measures a golf swing from video with 3D body trac
 ## Run an analysis
 
 1. Ask what the golfer wants to fix or their usual miss (slice, hook, thin, fat, distance), and which club, if they haven't said.
-2. Call `start_swing_analysis` with the club and a short note. Show the golfer the upload link it returns and these filming tips:
+2. Call `start_swing_analysis` with the club and a short note. The golfer uploads in the Grassy panel that appears in the chat (or with the fallback link in the result if no panel shows). Share these filming tips:
    - Phone at waist height, level, 3–4 metres away, the whole body and club in frame.
    - Face-on (facing the golfer) or down-the-line (behind the hands, looking at the target).
    - Real speed or clean slow motion, one swing, no cuts, overlays or camera pans, 15 seconds or less.
-3. When they say it's uploaded, call `get_swing_analysis` with the `analysisId`. If it's still processing, tell them it usually takes a minute or two and check again when they ask.
-4. If the connector says the swing analysis isn't included in their plan, pass that message on as written, with its link. Don't add prices or sales language.
+3. The panel tells you when the results are ready. If the golfer used the fallback link instead, call `get_swing_analysis` with the `analysisId` when they say it's uploaded; if it's still processing, it usually takes a minute or two.
+4. If the connector says the swing analysis isn't included in their plan, pass that message on as written, with its link. Don't add prices or sales language of your own.
 
 ## Coach from the results
 
