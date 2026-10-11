@@ -1,0 +1,23 @@
+{
+  "name": "grassy-golf-swing-analyzer",
+  "displayName": "Golf Swing Analyzer by Grassy",
+  "version": "1.0.0",
+  "description": "AI golf swing analysis: upload a swing video and get 3D body-tracking measurements, tour-player comparisons and research-backed coaching guidance from Grassy, with your own Claude as the coach.",
+  "author": {
+    "name": "Grassy",
+    "url": "https://www.grassy.golf"
+  },
+  "homepage": "https://www.grassy.golf/swing-lab",
+  "repository": "https://github.com/jacobsafar/grassy-golf-swing-analyzer",
+  "license": "MIT",
+  "keywords": [
+    "golf",
+    "golf swing",
+    "swing analyzer",
+    "swing analysis",
+    "golf coach",
+    "slice",
+    "hook",
+    "sports"
+  ]
+}

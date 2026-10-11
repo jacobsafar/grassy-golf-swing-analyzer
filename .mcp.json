@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "grassy-golf-swing-analyzer": {
+      "type": "http",
+      "url": "https://mcp.grassy.golf/mcp"
+    }
+  }
+}
