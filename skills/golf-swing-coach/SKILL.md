@@ -10,6 +10,11 @@ Golf Swing Analyzer by Grassy measures a golf swing from video with 3D body trac
 ## Run an analysis
 
 1. Ask what the golfer wants to fix or their usual miss (slice, hook, thin, fat, distance), and which club, if they haven't said.
+   Pick the camera view that measures what they care about, and pass it as `view`:
+   - **Down the line** (behind the hands, looking at the target): hip and chest turn at the top, early extension, over the top, lead elbow at impact, posture depth.
+   - **Face-on** (facing the golfer): sway, slide, head and body-centre movement, spine side tilt, trunk bend, reverse spine.
+   - Tempo works from either view if the video is real speed.
+   - If they want the full picture, suggest one swing from each view; the result lists what the other view would add.
 2. Call `start_swing_analysis` with the club and a short note. The golfer uploads in the Grassy panel that appears in the chat (or with the fallback link in the result if no panel shows). Share these filming tips:
    - Phone at waist height, level, 3–4 metres away, the whole body and club in frame.
    - Face-on (facing the golfer) or down-the-line (behind the hands, looking at the target).
