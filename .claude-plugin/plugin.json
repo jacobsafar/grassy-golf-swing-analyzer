@@ -19,5 +19,7 @@
     "slice",
     "hook",
     "sports"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.grassy.golf/privacy"
 }
